@@ -6,7 +6,7 @@ import altair as alt
 def load_data(csv):
    df = pd.read_csv(csv)
    return df
-
+st.write('Lekha was here')
 
 stops = load_data("data/Officer_Traffic_Stops.csv")
 
